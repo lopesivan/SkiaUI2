@@ -1,0 +1,26 @@
+<resources>
+    <string name="remember_infinite_transition">"rememberInfiniteTransition"</string>
+    <string name="click_to_open">"点击展开"</string>
+    <string name="exo_player">"ExoPlayer-Video"</string>
+    <string name="edit_hint_string">这是Android原生的EditText融合渲染</string>
+    <string name="test_text">测试文本</string>
+    <string name="filament_page">Filament Page</string>
+    <string name="camera_page">Camera Page</string>
+    <string name="native_views_page">Native Views Page</string>
+    <string name="recycler_view_page">RecyclerView Page</string>
+    <string name="canvas_page">Canvas Page</string>
+    <string name="qq_music_page">QQ Music Page</string>
+    <string name="video_black_white_shader">Black White Shader</string>
+    <string name="video_lightning_shader">Lightning Shader</string>
+    <string name="video_raining_shader">Raining Shader</string>
+    <string name="local_video_list">Local Video List</string>
+    <string name="empty_video_list">Empty Video List</string>
+    <string name="shader_effect">Shader Effect</string>
+    <string name="music_playing">Music Playing</string>
+    <string name="play_setting">Play Setting</string>
+    <string name="open_background_playback">Open Background Playback</string>
+    <string name="close_background_playback">Close Background Playback</string>
+    <string name="random_mode">Random Mode</string>
+    <string name="repeat_mode">Repeat Mode</string>
+    <string name="skia_texture_view">Skia Texture View</string>
+</resources>
