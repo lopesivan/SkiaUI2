@@ -327,12 +327,6 @@ class HYSkiaEngine(private val developmentType: Int, val view: View) {
         nativeMarkDirty(viewPtr)
     }
 
-    fun sendInspectMsg(msg: String, nativePtr: Long) {
-        skiaUIHandler.post {
-            nativeSendInspectMsg(msg, nativePtr)
-        }
-    }
-
     @MainThread
     fun getContext(): Context {
         return view.context
@@ -397,7 +391,6 @@ class HYSkiaEngine(private val developmentType: Int, val view: View) {
 
     private external fun nativeWebViewProgressChange(webView: Long, progress: Int)
     private external fun nativeMarkDirty(viewPtr: Long)
-    private external fun nativeSendInspectMsg(msg: String, nativePtr: Long)
 
     companion object {
         init {

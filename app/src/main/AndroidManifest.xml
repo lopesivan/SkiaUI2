@@ -24,14 +24,9 @@
         android:label="SkiaUI"
         android:roundIcon="@drawable/round_logo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SkiaUI">
+        android:theme="@style/Theme.App.Starting">
         <activity
             android:name=".MainActivity"
-            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|uiMode"
-            android:exported="true" />
-
-        <activity
-            android:name=".HYSkiaExampleActivity"
             android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|uiMode"
             android:exported="true">
             <intent-filter>
@@ -39,6 +34,12 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".HYSkiaExampleActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|uiMode"
+            android:exported="true">
         </activity>
 
         <service
